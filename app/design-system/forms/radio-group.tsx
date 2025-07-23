@@ -13,7 +13,7 @@ type RadioGroupProps = {
 };
 
 export function RadioGroup({ label, description, inline, className, children, error }: RadioGroupProps) {
-  const layoutStyle = cx('space-y-4', {
+  const layoutStyle = cx('space-y-1', {
     'sm:flex sm:items-center sm:space-y-0 sm:space-x-10': inline,
   });
 
